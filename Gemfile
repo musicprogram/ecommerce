@@ -58,3 +58,5 @@ gem 'devise'
 gem 'haml-rails'
 
 gem 'bootstrap-sass'
+
+gem 'bootstrap-material-design'
