@@ -1,0 +1,65 @@
+
+/* colores */
+
+$green: #16a085;
+$grey: #5A6576;
+$other_grey: #E7ECEE;
+$blue: #058CC5;
+$red: #d2527f;
+$light_blue: #3498DB;
+
+.green {
+	background-color: $green;
+}
+
+.green_text{
+	color: $green;
+}
+
+.blue{
+	background-color: $blue;
+}
+
+.blue_text{
+	color: $blue;
+}
+
+.light_blue{
+	background-color: $light_blue;
+}
+
+.ligth_blue_text{
+	color: $light_blue;
+}
+
+
+.red{
+	background-color: $red;
+}
+
+.red_text{
+	color: $red;
+}
+
+.grey{
+	background-color: $grey;
+}
+
+.grey_text{
+	background-color: $grey;
+}
+
+.other_grey{
+	background-color: $other_grey;
+}
+
+.other_grey_text{
+	background-color: $other_grey;
+}
+
+
+/* padding */ 
+
+.big_padding{
+	padding: 2em;
+}
