@@ -8,6 +8,18 @@ $blue: #058CC5;
 $red: #d2527f;
 $light_blue: #3498DB;
 
+
+.white{
+	background-color: white;
+}
+
+
+.white_text{
+	color: white;
+}
+
+
+
 .green {
 	background-color: $green;
 }
@@ -62,4 +74,27 @@ $light_blue: #3498DB;
 
 .big_padding{
 	padding: 2em;
+}
+
+
+/* alineamiento */
+.no-float{
+	float: none !important;
+}
+
+.no_padding{
+	padding: 0;
+}
+
+.inline_block{
+	float: none !important;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+/* tamaños */
+
+.ultra_big{
+	font-size: 7em;
 }
