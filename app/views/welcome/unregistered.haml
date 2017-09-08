@@ -30,7 +30,7 @@
 				=image_tag "upload-icon.png", class: 'col-md-10 inline_block'
 				.top_space
 					%strong.medium
-						Sube tus archivos a tiendus
+						Sube tus archivos 
 					%p.white_text.text-justify.small
 						Libro digital, canción, comic, curso o lo que se te ocurr!, 
 						si lo puedes meter en un .zip, lo puedes vender
@@ -38,18 +38,29 @@
 				=image_tag "youtube-icon.png", class: 'col-md-10 inline_block'
 				.top_space
 					%strong.medium
-						Sube tus archivos a tiendus
+						redes sociales
 					%p.white_text.text-justify.small
-						Libro digital, canción, comic, curso o lo que se te ocurr!, 
-						si lo puedes meter en un .zip, lo puedes vender	
+						puptatum ab, veritatis, impedit necessitatibus, ratione. Nobis cumque sint in aliquam!
 			.col-md-3.inline_block.text-left
 				=image_tag "money-icon.png", class: 'col-md-10 inline_block'
 				.top_space
 					%strong.medium
-						Sube tus archivos a tiendus
+						vende tus productos
 					%p.white_text.text-justify.small
-						Libro digital, canción, comic, curso o lo que se te ocurr!, 
-						si lo puedes meter en un .zip, lo puedes vender							
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit
+						ut doloribus praesentium perspiciatis facilis cumque					
+
+.red.white_text.big_padding.kostic{style:"margin-top:5em;"}
+	.col-md-8.no-float.text-center.center-block
+		=image_tag "media-icons.png"
+		%p.medium.col-md-11.center-block.no-float.top_space
+			%strong
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla similique iste aliquam aliquid. A in labore consequatur at corporis ullam eius repellat perferendis.
+.top_space.big_padding
+	.col-md-11.col-xs-12.center-block.no-float
+		=form_for("/", method: :post) do
+			=email_field_tag "email", nil , class: ' col-xs-12 inline_block text-center landing_form',  placeholder: 'Escribe aquí tu email'
+
 
 
 
