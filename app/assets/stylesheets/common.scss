@@ -88,6 +88,12 @@ $light_blue: #3498DB;
 	padding: 0;
 }
 
+/* margins*/
+.top_sapce{
+	margin-top: 1em;
+} 
+
+
 .inline_block{
 	float: none !important;
 	display: inline-block;
@@ -97,6 +103,15 @@ $light_blue: #3498DB;
 
 /* tamaños */
 
+.medium{
+	font-size: 1.5em;
+}
+
+.bigger{
+	font-size: 4em;
+}
+
 .ultra_big{
 	font-size: 7em;
 }
+
